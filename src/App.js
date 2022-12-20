@@ -2,7 +2,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import TaskList from './components/TaskList'
 
-export const svURL = process.env.REACT_APP_SERVER_URL
+export const URL = process.env.REACT_APP_SERVER_URL
 
 function App () {
   return (
